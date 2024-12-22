@@ -1,25 +1,47 @@
 {
-  "name": "waves-plugin",
-  "version": "1.5.15",
-  "description": "基于 Yunzai 的鸣潮游戏数据查询插件",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "karin-plugin-waves",
+  "version": "1.5.17",
+  "author": "@CikeyQi, @Sora",
   "type": "module",
-  "module": "index.js",
+  "main": "lib/index.js",
+  "description": "基于 Karin 的鸣潮游戏数据查询插件",
+  "homepage": "https://github.com/KarinJS/karin-plugin-template",
+  "bugs": {
+    "url": "https://github.com/KarinJS/karin-plugin-template/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "commit": "gitmoji -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinJS/karin-plugin-template.git"
+  },
+  "karin": {
+    "apps": [
+      "lib/apps"
+    ]
+  },
   "dependencies": {
     "axios": "^1.7.8",
     "p-limit": "^6.1.0",
     "qs": "^6.13.1",
     "sharp": "^0.33.5"
   },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-jsdoc": "^50.6.0",
+    "gitmoji-cli": "^9.5.0",
+    "globals": "^15.14.0"
+  },
   "keywords": [
-    "Yunzai-Bot",
-    "云崽",
+    "Karin",
+    "KarinJS",
+    "Karin-Plugin",
     "Wuthering Waves",
     "鸣潮"
   ],
-  "author": "@CikeyQi",
   "license": "AGPL-3.0"
 }

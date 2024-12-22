@@ -14,6 +14,8 @@
 }
 
 #body {
+    width: 960px;
+    height: 1110px;
     transform-origin: top left;
 }
 
@@ -140,6 +142,7 @@
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 2px black;
+    white-space: nowrap;
     text-align: center;
 }
 
