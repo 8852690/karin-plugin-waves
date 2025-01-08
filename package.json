@@ -5,9 +5,9 @@
   "type": "module",
   "main": "lib/index.js",
   "description": "基于 Karin 的鸣潮游戏数据查询插件",
-  "homepage": "https://github.com/KarinJS/karin-plugin-template",
+  "homepage": "https://github.com/8852690/karin-plugin-waves",
   "bugs": {
-    "url": "https://github.com/KarinJS/karin-plugin-template/issues"
+    "url": "https://github.com/8852690/karin-plugin-waves/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KarinJS/karin-plugin-template.git"
+    "url": "git+https://github.com/8852690/karin-plugin-waves.git"
   },
   "karin": {
     "apps": [
